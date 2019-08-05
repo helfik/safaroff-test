@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+    <title>MilliOn All Services</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row header-borders">
+                <div class="col-6">
+                    <img alt="MilliOn Logo" src="img/logo.png"/>
+                </div>
+                <div class="col-6 nav-container">
+                    <nav class="nav justify-content-end">
+                        <a class="nav-link active" href="profile.html" id="nameContainer">
+
+                        </a>
+                        <a class="nav-link active" href="#">
+                            <img src="img/search-icon.png" alt="Search">
+                        </a>
+                        <a class="nav-link" href="#">
+                            <img src="img/call-icon.png" alt="Phone">
+                        </a>
+                        <a class="nav-link" href="#">
+                            <img src="img/language-icon.png" alt="Language">
+                        </a>
+                        <a class="nav-link" href="login.html">
+                            <img src="img/login-icon.png" alt="Login">
+                        </a>
+                        <a class="nav-link" href="#">
+                            <img src="img/menu-burger.png" alt="Menu">
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="back"></div>
+        <div class="container-fluid">
+            <div class="row main-section">
+                <div class="container-fluid no-padding">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="user-block">
+                                <div class="user-container">
+                                    <div class="user-info" id="userInfo">
+                                        <p>Tural Məmmədov</p>
+                                        <div class="notifications">
+                                            <img src="img/notification.png"/>
+                                            <span class="notifications-count">3</span>
+                                        </div>
+                                    </div>
+                                    <p class="bonus">1200 bonus</p>
+                                </div>
+                                <div class="user-menu">
+                                    <div class="user-menu-inner">
+                                        <a class="user-menu-item active" href="#">Ana səhifə</a>
+                                        <a class="user-menu-item" href="#">Birbaşa ödə</a>
+                                        <a class="user-menu-item" href="#">Kartlar</a>
+                                        <a class="user-menu-item" href="#">Ödənişlər</a>
+                                        <a class="user-menu-item" href="#">Bonuslar</a>
+                                        <a class="user-menu-item" href="#">Favoritlər</a>
+                                        <a class="user-menu-item" href="#">Profil</a>
+                                    </div>
+                                </div>
+                                <div class="user-help">
+                                    <img src="img/question.png"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-9">
+                            <h6 class="fav">Favoritlər</h6>
+                            <div class="container-fluid no-padding">
+                                <div class="row" id="favoritesContainer">
+                                    <div class="col no-padding">
+                                        <a href="#" class="service-a">
+                                            <div class="service-block fav">
+                                                <div class="service-content">
+                                                    <img src="img/mobile.png" alt="" class="service-img">
+                                                    <p class="service-text">mobile</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col no-padding">
+                                        <div class="title-block"></div>
+                                    </div>
+                                    <div class="col no-padding">
+                                        <div class="title-block"></div>
+                                    </div>
+                                    <div class="col no-padding">
+                                        <div class="title-block"></div>
+                                    </div>
+                                </div>
+                                <div class="row last-payments-cont">
+                                    <div class="col-12">
+                                        <div class="last-payments">
+                                            <div class="payment-title">
+                                                <p>Son ödənişlər</p>
+                                                <a href="#"><img src="img/menu-settings.png"/></a>
+                                            </div>
+                                            <table style="width:100%" class="table">
+                                                <tr>
+                                                    <th>Ad</th>
+                                                    <th>Kod</th>
+                                                    <th>Tarix</th>
+                                                    <th>Məbləğ</th>
+                                                    <th>Transaction ID</th>
+                                                    <th></th>
+                                                </tr>
+                                                <tbody id="paymentsContainer">
+                                                <tr>
+                                                    <td>Cinema Plus</td>
+                                                    <td>7818</td>
+                                                    <td>08.04.2018</td>
+                                                    <td>18 AZN</td>
+                                                    <td>214156589</td>
+                                                    <td>
+                                                        <a href="#" class="btn btn-danger pay-btn">Ödə</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Cinema Plus</td>
+                                                    <td>7818</td>
+                                                    <td>08.04.2018</td>
+                                                    <td>18 AZN</td>
+                                                    <td>214156589</td>
+                                                    <td>
+                                                        <a href="#" class="btn btn-danger pay-btn">Ödə</a>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid">
+            <div class="row footer-cont">
+                <div class="col">
+                    <div class="footer-inner">
+                        <h6>Info</h6>
+                        <a href="#">Şirkət haqqında</a>
+                        <a href="#">Missiyamız</a>
+                        <a href="#">Uzunmüddətli məqsədlərimiz</a>
+                        <a href="#">All rights reserved 2018 © MilliÖn</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footer-inner">
+                        <h6>Support</h6>
+                        <a href="#">F.A.Q</a>
+                        <a href="#">Bizim üstünlüklərimiz</a>
+                        <a href="#">Sayt vasitəsilə müraciət</a>
+                        <a href="#">Bizlə işləməyin üstünlüyü</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footer-inner">
+                        <h6>Request</h6>
+                        <a href="#">Offer</a>
+                        <a href="#">İntegration</a>
+                        <a href="#">Complaint</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footer-inner">
+                        <h6>Career</h6>
+                        <a href="#">Vacancies</a>
+                        <a href="#">Intership programs</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footer-inner">
+                        <h6>Additional</h6>
+                        <a href="#">News</a>
+                        <a href="#">Promotions</a>
+                        <a href="#">Bonuses</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-down">
+                <div class="col-sm-12 col-md-6">
+                    <a href="#"><img src="img/app-store.svg"/></a>
+                    <a href="#"><img src="img/google-play.svg"/></a>
+                    <a href="#"><img src="img/facebook.png"></a>
+                    <a href="#"><img src="img/instagram.png"></a>
+                </div>
+                <div class="col-sm-12 col-md-6 footer-down-inner">
+                    <a href="#"><img src="img/cards.svg"></a>
+                    <a href="#"><img src="img/cagri-merkezi.svg"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/profile.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

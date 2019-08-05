@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="39px" viewBox="0 0 56 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>banks</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Million-all-services" transform="translate(-408.000000, -562.000000)" stroke="#000000">
+            <g id="banks" transform="translate(408.000000, 562.000000)">
+                <path d="M0.378,8.05367568 L0.378,13.9192973 L55.622,13.9192973 L55.622,8.05367568 L0.378,8.05367568 Z" id="Rectangle-11" stroke-width="0.756"></path>
+                <path d="M11.1547254,-7.93290541 C10.49712,-7.93290541 9.96402542,-7.39981086 9.96402542,-6.74220541 L9.96402542,45.7422054 C9.96402542,46.3998109 10.49712,46.9329054 11.1547254,46.9329054 L44.8452746,46.9329054 C45.50288,46.9329054 46.0359746,46.3998109 46.0359746,45.7422054 L46.0359746,-6.74220541 C46.0359746,-7.39981086 45.50288,-7.93290541 44.8452746,-7.93290541 L11.1547254,-7.93290541 Z" id="Rectangle-5" stroke-width="0.945" transform="translate(28.000000, 19.500000) rotate(-270.000000) translate(-28.000000, -19.500000) "></path>
+                <path d="M5.69491525,22.8108108 L19.9322034,22.8108108" id="Path-5" stroke-width="0.756"></path>
+                <path d="M5.69491525,26.5945946 L14.6746293,26.5945946" id="Path-5-Copy" stroke-width="0.756"></path>
+                <path d="M5.69491525,30.3783784 L24.1581906,30.3783784" id="Path-5-Copy-2" stroke-width="0.756"></path>
+                <ellipse id="Oval-6" stroke-width="0.756" cx="45.0847458" cy="26.1216216" rx="4.27118644" ry="4.25675676"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
